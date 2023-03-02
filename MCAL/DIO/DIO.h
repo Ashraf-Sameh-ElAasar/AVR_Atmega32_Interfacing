@@ -2,7 +2,7 @@
 /*   Author             :    Ashraf Sameh ElAasar				*/
 /*	 Date 				:    28 Feb 2023 						*/
 /*	 Version 			:    1.0V 							 	*/
-/*	 Description 		:   Digital Input Output Prog.c			*/
+/*	 Description 		:   Digital Input Output Interface.c			*/
 /****************************************************************/
 #ifndef DIO_H_
 #define DIO_H_
