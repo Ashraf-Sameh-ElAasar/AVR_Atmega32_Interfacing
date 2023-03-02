@@ -2,7 +2,7 @@
 /*   Author             :    Ashraf Sameh ElAasar				*/
 /*	 Date 				:    28 Feb 2023 						*/
 /*	 Version 			:    1.0V 							 	*/
-/*	 Description 		:   Digital Input Output Register.c		*/
+/*	 Description 		:   Digital Input Output Register.h		*/
 /****************************************************************/
 #ifndef DIO_REG_H_
 #define DIO_REG_H_
