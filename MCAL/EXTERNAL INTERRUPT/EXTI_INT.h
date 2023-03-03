@@ -1,5 +1,5 @@
 /****************************************************************/
-/*   Author             :    Ahmed kareem abdelkareem				    */
+/*   Author             :    Ahmed Atia Atia				    */
 /*	 Date 				:    20 April 2019 						*/
 /*	 Version 			:    1.0V 							 	*/
 /*	 Description 		:   public Accessing mechanism prototype*/ 
@@ -13,8 +13,8 @@
 /*                 than one time .                              */
 /****************************************************************/
 
-#ifndef _EXT_INT_H
-#define _EXT_INT_H
+#ifndef _EXTI_INT_H
+#define _EXTI_INT_H
 
 
 /****************************************************************/	
@@ -34,9 +34,9 @@
 
 
 typedef void (*pf) (void);
-static volatile pf x;
-static volatile pf y;
-static volatile pf z;
+static volatile pf x0;
+static volatile pf x1;
+static volatile pf x2;
 
 /****************************************************************/
 /* Description    :  This function used to initialize EXT0      */
@@ -44,7 +44,6 @@ static volatile pf z;
 /*					 return : void		 						*/
 /****************************************************************/
 void EXT0_voidInit ( void );
-
 void EXT1_voidInit ( void );
 void EXT2_voidInit ( void );
 /****************************************************************/
