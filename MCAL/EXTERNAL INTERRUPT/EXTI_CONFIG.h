@@ -11,8 +11,8 @@
 /* Description   : Guard to protect this File from include more */
 /*                 than one time .                              */
 /****************************************************************/
-#ifndef _EXT_CONFIG_H
-#define _EXT_CONFIG_H
+#ifndef _EXTI_CONFIG_H
+#define _EXTI_CONFIG_H
 
 
 /****************************************************************/
@@ -24,8 +24,8 @@
 /*								    IOT ( Interrupt On Change ) */
 /****************************************************************/
 
-#define EXTI0_SENSE_MODE		FALLING
-#define EXTI1_SENSE_MODE		FALLING
-#define EXTI2_SENSE_MODE    FALLING
+#define EXTI0_SENSE_MODE		RISING
+#define EXTI1_SENSE_MODE		RISING
+#define EXTI2_SENSE_MODE    RISING
 
-#endif	/**!comment : End of the gaurd [_EXT0_CONFIG_H]		   **/
+#endif	/**!comment : End of the gaurd [_EXTI_CONFIG_H]		   **/
