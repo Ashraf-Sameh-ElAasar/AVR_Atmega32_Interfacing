@@ -82,9 +82,9 @@ void EXT2_voidDisable( void );
 /* Pre_condition  :  this function must be used after Interrupt */
 /*     				 initialized 							    */
 /****************************************************************/
-void EXT0_voidCallBack(pf addresscpy);
-void EXT1_voidCallBack(pf addresscpy);
-void EXT2_voidCallBack(pf addresscpy);
+void EXT0_voidCallBack(pf addresscpy_int0);
+void EXT1_voidCallBack(pf addresscpy_int1);
+void EXT2_voidCallBack(pf addresscpy_int2);
 /****************************************************************/
 /* Description    : This function used to Set lach Interrupt	*/
 /*									 happens.					*/ 
