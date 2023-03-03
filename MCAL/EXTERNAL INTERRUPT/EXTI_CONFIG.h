@@ -24,8 +24,8 @@
 /*								    IOT ( Interrupt On Change ) */
 /****************************************************************/
 
-#define EXTI0_SENSE_MODE		RISING
-#define EXTI1_SENSE_MODE		RISING
-#define EXTI2_SENSE_MODE    RISING
+#define EXTI0_SENSE_MODE		  RISING
+#define EXTI1_SENSE_MODE		  RISING
+#define EXTI2_SENSE_MODE      RISING
 
 #endif	/**!comment : End of the gaurd [_EXTI_CONFIG_H]		   **/
