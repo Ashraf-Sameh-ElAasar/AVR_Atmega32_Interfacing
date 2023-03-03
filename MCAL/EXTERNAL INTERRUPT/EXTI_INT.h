@@ -23,8 +23,8 @@
 
 #include "STD_TYPES.h"
 #include "BIT_MATH.h"
-#include "EXTI_Config.h"
-#include "EXTI_private.h"
+#include "EXTI_CONFIG.h"
+#include "EXTI_PRIV.h"
 
 #define NULL 0
 #define IOC			1
